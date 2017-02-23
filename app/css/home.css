@@ -1,0 +1,97 @@
+.home{
+    height: 100%;
+    background-image: url('../images/homebg.jpg');
+    background-size: cover;
+    color: #fff;
+}
+
+.nav{
+    font-family: "Consolas",sans-serif; 
+	height: 50px;
+    margin-bottom: 150px;
+	background-color: rgba(0,0,0,0.2);
+}
+
+@media (max-height: 570px){
+    .nav{
+        margin-bottom: 50px;
+    }
+}
+
+.nav::after{
+    content: '';
+    clear: both;
+}
+
+.nav a{
+    color: #fff;
+}
+
+.navRight{
+    float: right;
+	margin: 0;
+    padding: 0;
+	list-style: none;
+}
+
+.navItem,
+.logo{
+	display: inline-block;
+	line-height: 50px;
+	margin-right: 20px;
+}
+
+.logo{   
+	padding-left: 20px;
+	float: left;
+	font-size: 2rem;
+	letter-spacing: 1px;
+    margin-right: 0;
+}
+
+.navItem a, 
+.logo a{
+	line-height: 50px;
+	text-decoration: none;
+	display: inline-block;
+}
+
+.cover{
+    font-family: "Consolas",sans-serif;    
+    max-width: 300px;
+	text-align: center;
+	margin: 0 auto;
+	color: #eee;
+}
+
+.title{
+    font-weight: bold;
+    font-size: 3.2rem;
+	margin: 0;
+    letter-spacing:3px;
+	padding: 12px;
+    margin-bottom: 25px;
+	border-top: 2px solid #fff;
+	border-bottom: 2px solid #fff;
+    text-shadow: 0 0 5px #999;
+}
+
+.subTitle{
+    font-size: 1.8rem;
+	line-height: 30px;
+	margin: 0;
+	font-weight: bold;
+    text-shadow: 0 0 3px #999;
+}
+
+.about{
+    text-align: center;
+}
+
+.works{
+    text-align: center;
+}
+
+.contact{
+    text-align: center;
+}
