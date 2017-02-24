@@ -1,5 +1,7 @@
 .home{
     height: 100%;
+    width: 100%;
+    overflow: hidden;
     background-image: url('../images/homebg.jpg');
     background-size: cover;
     color: #fff;
@@ -94,4 +96,29 @@
 
 .contact{
     text-align: center;
+}
+
+
+/*动画*/
+
+.transitionWrapper {
+    position: relative;
+}
+
+:global(.transitionWrapper-enter) {
+    opacity: 0.01;
+    transition: opacity 500ms ease-in;
+}
+ 
+:global(.transitionWrapper-enter.transitionWrapper-enter-active) {
+    opacity: 1;
+}
+ 
+:global(.transitionWrapper-leave) {
+    opacity: 1;
+    transition: opacity 500ms ease-in;
+}
+ 
+:global(.transitionWrapper-leave.transitionWrapper-leave-active) {
+    opacity: 0;
 }

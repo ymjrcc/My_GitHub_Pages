@@ -1,5 +1,7 @@
 .home__home-eoHdD{
     height: 100%;
+    width: 100%;
+    overflow: hidden;
     background-image: url(images/3f4d3e4d.homebg.jpg);
     background-size: cover;
     color: #fff;
@@ -94,6 +96,31 @@
 
 .home__contact-2n_37{
     text-align: center;
+}
+
+
+/*动画*/
+
+.home__transitionWrapper-2x_uP {
+    position: relative;
+}
+
+.transitionWrapper-enter {
+    opacity: 0.01;
+    transition: opacity 500ms ease-in;
+}
+ 
+.transitionWrapper-enter.transitionWrapper-enter-active {
+    opacity: 1;
+}
+ 
+.transitionWrapper-leave {
+    opacity: 1;
+    transition: opacity 500ms ease-in;
+}
+ 
+.transitionWrapper-leave.transitionWrapper-leave-active {
+    opacity: 0;
 }.about__about-244xt{
     width: 300px;
     margin: 0 auto;
