@@ -1,0 +1,30 @@
+.works{
+    width: 300px;
+    margin: 0 auto;
+    text-shadow: 0 0 5px #666;
+    color: #fff;
+    font-family: "Consolas",sans-serif; 
+}
+
+.title{
+    text-align: center;
+    font-size: 3rem;
+    letter-spacing: 1px;
+    margin: 0;
+    padding: 0;
+}
+
+.list{
+    font-size: 1.8rem;
+}
+
+.item{
+    margin-bottom: 5px;
+}
+
+.item a{
+    color: #fff;
+    line-height: 32px;
+    padding: 0 2px 1px;
+    border-bottom: 1px solid #fff;
+}

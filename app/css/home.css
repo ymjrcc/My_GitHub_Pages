@@ -5,6 +5,7 @@
     background-image: url('../images/homebg.jpg');
     background-size: cover;
     color: #fff;
+    position: relative;
 }
 
 .nav{
@@ -86,16 +87,17 @@
     text-shadow: 0 0 3px #999;
 }
 
-.about{
+.footer{
+    font-family: "Consolas",sans-serif;
+    font-size: 1.4rem;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 50px;
+    line-height: 50px;
     text-align: center;
-}
-
-.works{
-    text-align: center;
-}
-
-.contact{
-    text-align: center;
+    text-shadow: 0 0 5px #666;
 }
 
 

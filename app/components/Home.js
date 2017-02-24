@@ -18,6 +18,16 @@ class Nav extends Component{
     }
 }
 
+class Footer extends Component{
+    render(){
+        return (
+            <div className={style.footer}>
+                Copyright © 2017 Yiming
+            </div>
+        )
+    }
+}
+
 class Home extends Component{
     render(){
         return (
@@ -36,6 +46,7 @@ class Home extends Component{
                         }
                     </div>
                 </ReactCSSTransitionGroup>
+                <Footer />
             </div>
         )
     }

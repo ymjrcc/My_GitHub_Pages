@@ -31,7 +31,7 @@ webpackJsonp([0,2],{
 
 	var _Works2 = _interopRequireDefault(_Works);
 
-	var _Contact = __webpack_require__(257);
+	var _Contact = __webpack_require__(259);
 
 	var _Contact2 = _interopRequireDefault(_Contact);
 
@@ -147,8 +147,31 @@ webpackJsonp([0,2],{
 	    return Nav;
 	}(_react.Component);
 
-	var Home = function (_Component2) {
-	    _inherits(Home, _Component2);
+	var Footer = function (_Component2) {
+	    _inherits(Footer, _Component2);
+
+	    function Footer() {
+	        _classCallCheck(this, Footer);
+
+	        return _possibleConstructorReturn(this, (Footer.__proto__ || Object.getPrototypeOf(Footer)).apply(this, arguments));
+	    }
+
+	    _createClass(Footer, [{
+	        key: 'render',
+	        value: function render() {
+	            return _react2.default.createElement(
+	                'div',
+	                { className: _home2.default.footer },
+	                'Copyright \xA9 2017 Yiming'
+	            );
+	        }
+	    }]);
+
+	    return Footer;
+	}(_react.Component);
+
+	var Home = function (_Component3) {
+	    _inherits(Home, _Component3);
 
 	    function Home() {
 	        _classCallCheck(this, Home);
@@ -177,7 +200,8 @@ webpackJsonp([0,2],{
 	                            style: { position: "absolute", width: "100%" } },
 	                        this.props.children
 	                    )
-	                )
+	                ),
+	                _react2.default.createElement(Footer, null)
 	            );
 	        }
 	    }]);
@@ -2319,7 +2343,7 @@ webpackJsonp([0,2],{
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
-	module.exports = {"home":"home__home-eoHdD","nav":"home__nav-3UAsZ","navRight":"home__navRight-3TeEE","navItem":"home__navItem-1WIRy","logo":"home__logo-twxd2","cover":"home__cover-1-Qk9","title":"home__title-1WgcK","subTitle":"home__subTitle-2w8ji","about":"home__about-9cjEh","works":"home__works-3RTXo","contact":"home__contact-2n_37","transitionWrapper":"home__transitionWrapper-2x_uP"};
+	module.exports = {"home":"home__home-eoHdD","nav":"home__nav-3UAsZ","navRight":"home__navRight-3TeEE","navItem":"home__navItem-1WIRy","logo":"home__logo-twxd2","cover":"home__cover-1-Qk9","title":"home__title-1WgcK","subTitle":"home__subTitle-2w8ji","footer":"home__footer-3Lvo6","transitionWrapper":"home__transitionWrapper-2x_uP"};
 
 /***/ },
 
@@ -2502,9 +2526,9 @@ webpackJsonp([0,2],{
 
 	var _react2 = _interopRequireDefault(_react);
 
-	var _home = __webpack_require__(247);
+	var _works = __webpack_require__(257);
 
-	var _home2 = _interopRequireDefault(_home);
+	var _works2 = _interopRequireDefault(_works);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -2528,8 +2552,57 @@ webpackJsonp([0,2],{
 	        value: function render() {
 	            return _react2.default.createElement(
 	                'div',
-	                { className: _home2.default.works },
-	                'works'
+	                { className: _works2.default.works },
+	                _react2.default.createElement(
+	                    'h2',
+	                    { className: _works2.default.title },
+	                    'Works List'
+	                ),
+	                _react2.default.createElement(
+	                    'ul',
+	                    { className: _works2.default.list },
+	                    _react2.default.createElement(
+	                        'li',
+	                        { className: _works2.default.item },
+	                        _react2.default.createElement(
+	                            'a',
+	                            { href: 'https://github.com/ymjrcc/FireBall_by_React', target: '_blank' },
+	                            'Fireball Demo'
+	                        )
+	                    ),
+	                    _react2.default.createElement(
+	                        'li',
+	                        { className: _works2.default.item },
+	                        _react2.default.createElement(
+	                            'a',
+	                            { href: 'https://github.com/ymjrcc/My_Github_Pages', target: '_blank' },
+	                            'My GitHub Pages'
+	                        )
+	                    ),
+	                    _react2.default.createElement(
+	                        'li',
+	                        { className: _works2.default.item },
+	                        _react2.default.createElement(
+	                            'a',
+	                            { href: 'https://github.com/ymjrcc/ymjrcc.github.io/tree/master/mypractice/galleryByReact', target: '_blank' },
+	                            'Gallery'
+	                        )
+	                    ),
+	                    _react2.default.createElement(
+	                        'li',
+	                        { className: _works2.default.item },
+	                        _react2.default.createElement(
+	                            'a',
+	                            { href: 'https://github.com/ymjrcc/carousel', target: '_blank' },
+	                            'Carousel'
+	                        )
+	                    ),
+	                    _react2.default.createElement(
+	                        'li',
+	                        null,
+	                        '\u2026\u2026'
+	                    )
+	                )
 	            );
 	        }
 	    }]);
@@ -2542,6 +2615,14 @@ webpackJsonp([0,2],{
 /***/ },
 
 /***/ 257:
+/***/ function(module, exports) {
+
+	// removed by extract-text-webpack-plugin
+	module.exports = {"works":"works__works-3so8w","title":"works__title-1dj0z","list":"works__list-zTa97","item":"works__item-2Bw7D"};
+
+/***/ },
+
+/***/ 259:
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -2556,7 +2637,7 @@ webpackJsonp([0,2],{
 
 	var _react2 = _interopRequireDefault(_react);
 
-	var _contact = __webpack_require__(258);
+	var _contact = __webpack_require__(260);
 
 	var _contact2 = _interopRequireDefault(_contact);
 
@@ -2585,7 +2666,7 @@ webpackJsonp([0,2],{
 	                { className: _contact2.default.contact },
 	                _react2.default.createElement(
 	                    'h2',
-	                    null,
+	                    { className: _contact2.default.title },
 	                    '\u8054\u7CFB\u6211'
 	                ),
 	                _react2.default.createElement('div', { className: _contact2.default.hr }),
@@ -2619,11 +2700,11 @@ webpackJsonp([0,2],{
 
 /***/ },
 
-/***/ 258:
+/***/ 260:
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
-	module.exports = {"contact":"contact__contact-2zgCB","hr":"contact__hr-2RRZL","info":"contact__info-1ZILN"};
+	module.exports = {"contact":"contact__contact-2zgCB","title":"contact__title-2EzXp","hr":"contact__hr-2RRZL","info":"contact__info-1ZILN"};
 
 /***/ }
 
