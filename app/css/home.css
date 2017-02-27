@@ -1,8 +1,11 @@
 .home{
     height: 100%;
+    width: 100%;
+    overflow: hidden;
     background-image: url('../images/homebg.jpg');
     background-size: cover;
     color: #fff;
+    position: relative;
 }
 
 .nav{
@@ -84,14 +87,40 @@
     text-shadow: 0 0 3px #999;
 }
 
-.about{
+.footer{
+    font-family: "Consolas",sans-serif;
+    font-size: 1.4rem;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 50px;
+    line-height: 50px;
     text-align: center;
+    text-shadow: 0 0 5px #666;
 }
 
-.works{
-    text-align: center;
+
+/*动画*/
+
+.transitionWrapper {
+    position: relative;
 }
 
-.contact{
-    text-align: center;
+:global(.transitionWrapper-enter) {
+    opacity: 0.01;
+    transition: opacity 500ms ease-in;
+}
+ 
+:global(.transitionWrapper-enter.transitionWrapper-enter-active) {
+    opacity: 1;
+}
+ 
+:global(.transitionWrapper-leave) {
+    opacity: 1;
+    transition: opacity 500ms ease-in;
+}
+ 
+:global(.transitionWrapper-leave.transitionWrapper-leave-active) {
+    opacity: 0;
 }

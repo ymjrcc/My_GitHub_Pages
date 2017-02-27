@@ -1,5 +1,6 @@
 import React,{Component} from 'react'
 import {Link} from 'react-router'
+import ReactCSSTransitionGroup from 'react-addons-css-transition-group'
 import style from '../css/home.css'
 
 class Nav extends Component{
@@ -17,12 +18,35 @@ class Nav extends Component{
     }
 }
 
+class Footer extends Component{
+    render(){
+        return (
+            <div className={style.footer}>
+                Copyright © 2017 Yiming
+            </div>
+        )
+    }
+}
+
 class Home extends Component{
     render(){
         return (
             <div className={style.home}>
                 <Nav />            
-                {this.props.children}
+                <ReactCSSTransitionGroup
+                    transitionName="transitionWrapper"
+                    component="div"
+                    className={style.transitionWrapper}
+                    transitionEnterTimeout={500}
+                    transitionLeaveTimeout={500}>
+                    <div key={this.props.location.pathname}
+                        style={{position:"absolute", width: "100%"}}>
+                        {
+                            this.props.children
+                        }
+                    </div>
+                </ReactCSSTransitionGroup>
+                <Footer />
             </div>
         )
     }

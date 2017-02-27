@@ -5,7 +5,7 @@ class Contact extends Component{
     render(){
         return (
             <div className={style.contact}>
-                <h2>联系我</h2>
+                <h2 className={style.title}>联系我</h2>
                 <div className={style.hr}></div>
                 <div className={style.info}>
                     <p>手机：15271831026</p>						
