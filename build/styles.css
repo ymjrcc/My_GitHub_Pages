@@ -148,6 +148,25 @@
     text-shadow: 0 0 5px #666;
     color: #fff;
     font-family: "Consolas",sans-serif; 
+    position: relative;
+}
+
+.works__fireball-17v0s{
+    position: absolute;
+    right: 0;
+    top: 60px;
+}
+
+.works__fireball-17v0s img{
+    display: block;
+    margin: 0 auto;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.works__fireballTitle-_csks{
+    text-align: center;
 }
 
 .works__title-1dj0z{
@@ -160,6 +179,7 @@
 
 .works__list-zTa97{
     font-size: 1.8rem;
+    padding-left: 20px;
 }
 
 .works__item-2Bw7D{

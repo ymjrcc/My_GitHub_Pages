@@ -8,19 +8,23 @@ class Works extends Component{
                 <h2 className={style.title}>Works List</h2>
                 <ul className={style.list}>
                     <li className={style.item}>
-                        <a href="https://github.com/ymjrcc/FireBall_by_React" target="_blank">Fireball Demo</a>
+                        <a href="https://github.com/ymjrcc/Fireball_by_React" target="_blank">Fireball Demo</a>
                     </li>
                     <li className={style.item}>
-                        <a href="https://github.com/ymjrcc/My_Github_Pages" target="_blank">My GitHub Pages</a>
+                        <a href="https://github.com/ymjrcc/My_GitHub_Pages" target="_blank">My GitHub Pages</a>
                     </li>
                     <li className={style.item}>
-                        <a href="https://github.com/ymjrcc/ymjrcc.github.io/tree/master/mypractice/galleryByReact" target="_blank">Gallery</a>
+                        <a href="https://github.com/ymjrcc/Gallery_by_React" target="_blank">Gallery</a>
                     </li>
                     <li className={style.item}>
                         <a href="https://github.com/ymjrcc/carousel" target="_blank">Carousel</a>
                     </li>
                     <li>……</li>
                 </ul>
+                <div className={style.fireball}>
+                    <img src={require('../images/FireballQrcode.png')}/>
+                    <div className={style.fireballTitle}>Fireball Demo</div>
+                </div>
             </div>
         )
     }

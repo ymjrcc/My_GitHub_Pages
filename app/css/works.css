@@ -4,6 +4,25 @@
     text-shadow: 0 0 5px #666;
     color: #fff;
     font-family: "Consolas",sans-serif; 
+    position: relative;
+}
+
+.fireball{
+    position: absolute;
+    right: 0;
+    top: 60px;
+}
+
+.fireball img{
+    display: block;
+    margin: 0 auto;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.fireballTitle{
+    text-align: center;
 }
 
 .title{
@@ -16,6 +35,7 @@
 
 .list{
     font-size: 1.8rem;
+    padding-left: 20px;
 }
 
 .item{

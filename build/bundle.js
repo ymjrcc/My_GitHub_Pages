@@ -31,7 +31,7 @@ webpackJsonp([0,2],{
 
 	var _Works2 = _interopRequireDefault(_Works);
 
-	var _Contact = __webpack_require__(259);
+	var _Contact = __webpack_require__(260);
 
 	var _Contact2 = _interopRequireDefault(_Contact);
 
@@ -2566,7 +2566,7 @@ webpackJsonp([0,2],{
 	                        { className: _works2.default.item },
 	                        _react2.default.createElement(
 	                            'a',
-	                            { href: 'https://github.com/ymjrcc/FireBall_by_React', target: '_blank' },
+	                            { href: 'https://github.com/ymjrcc/Fireball_by_React', target: '_blank' },
 	                            'Fireball Demo'
 	                        )
 	                    ),
@@ -2575,7 +2575,7 @@ webpackJsonp([0,2],{
 	                        { className: _works2.default.item },
 	                        _react2.default.createElement(
 	                            'a',
-	                            { href: 'https://github.com/ymjrcc/My_Github_Pages', target: '_blank' },
+	                            { href: 'https://github.com/ymjrcc/My_GitHub_Pages', target: '_blank' },
 	                            'My GitHub Pages'
 	                        )
 	                    ),
@@ -2584,7 +2584,7 @@ webpackJsonp([0,2],{
 	                        { className: _works2.default.item },
 	                        _react2.default.createElement(
 	                            'a',
-	                            { href: 'https://github.com/ymjrcc/ymjrcc.github.io/tree/master/mypractice/galleryByReact', target: '_blank' },
+	                            { href: 'https://github.com/ymjrcc/Gallery_by_React', target: '_blank' },
 	                            'Gallery'
 	                        )
 	                    ),
@@ -2602,6 +2602,16 @@ webpackJsonp([0,2],{
 	                        null,
 	                        '\u2026\u2026'
 	                    )
+	                ),
+	                _react2.default.createElement(
+	                    'div',
+	                    { className: _works2.default.fireball },
+	                    _react2.default.createElement('img', { src: __webpack_require__(259) }),
+	                    _react2.default.createElement(
+	                        'div',
+	                        { className: _works2.default.fireballTitle },
+	                        'Fireball Demo'
+	                    )
 	                )
 	            );
 	        }
@@ -2618,11 +2628,18 @@ webpackJsonp([0,2],{
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
-	module.exports = {"works":"works__works-3so8w","title":"works__title-1dj0z","list":"works__list-zTa97","item":"works__item-2Bw7D"};
+	module.exports = {"works":"works__works-3so8w","fireball":"works__fireball-17v0s","fireballTitle":"works__fireballTitle-_csks","title":"works__title-1dj0z","list":"works__list-zTa97","item":"works__item-2Bw7D"};
 
 /***/ },
 
 /***/ 259:
+/***/ function(module, exports) {
+
+	module.exports = "data:image/png;base64,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"
+
+/***/ },
+
+/***/ 260:
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -2637,7 +2654,7 @@ webpackJsonp([0,2],{
 
 	var _react2 = _interopRequireDefault(_react);
 
-	var _contact = __webpack_require__(260);
+	var _contact = __webpack_require__(261);
 
 	var _contact2 = _interopRequireDefault(_contact);
 
@@ -2700,7 +2717,7 @@ webpackJsonp([0,2],{
 
 /***/ },
 
-/***/ 260:
+/***/ 261:
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
