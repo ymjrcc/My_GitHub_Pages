@@ -12,7 +12,7 @@ ReactDOM.render(
         <Router history={hashHistory}>
             <Route path="/" component={Home} >
                 <IndexRoute component={Cover}/>
-                <Route path="/about" component={About} />
+                <Route path="/about" component={Cover} />
                 <Route path="/works" component={Works} />
                 <Route path="/contact" component={Contact} />
             </Route>
